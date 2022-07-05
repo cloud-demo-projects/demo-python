@@ -21,6 +21,7 @@ This is a sample project to play around Python
 
 ## Enable pytest
 - Go to VS code settings -> search for test and enable pytest
+- pytest gathers tests according to the naming convention. By default any file that is to contain tests must be named starting with test_, classes that hold tests must be named starting with Test, and any function in a file that should be treated as a test must also start with test_.
 
 ## Enable pycodestyle
 -  Go to VS code settings -> search for codestyle and enable
