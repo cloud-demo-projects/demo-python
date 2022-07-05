@@ -12,3 +12,5 @@ This is a sample project to play around Python
 - Global: C:\Users\blabla\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages
 - pipenv: C:\Users\nipun\.virtualenvs\demo-python-DPidrs2A\Lib\site-packages\
 
+## Add Pylint
+- VS Code- Ctrl+shift+p - lint - enable lint- settings.json updated
