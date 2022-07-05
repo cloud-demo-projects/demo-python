@@ -30,14 +30,15 @@ steps:
 #     pip install graphviz
 #   displayName: 'Install Python Dependencies'
 
-- script: python -m pipenv lock -r > requirements_generated.txt
-          ls -lrt
-  displayName: 'Create requirements.txt from Pipfile'
-
 - script: |
     python -m pip install --upgrade pip
     pip install -r requirements.txt
   displayName: 'Install Python Dependencies'  
+  
+- script: |
+    python -m pipenv lock -r > requirements_generated.txt
+    ls -lrt
+  displayName: 'Create requirements_generated.txt from Pipfile'
 
 - script: |
     flake8 .
