@@ -40,6 +40,10 @@ steps:
   displayName: 'Run lint tests'
 
 - script: |
+    pytest --doctest-modules --junitxml=junit/test-results.xml --cov=. --cov-report=xml
+  displayName: 'pytest'
+
+- script: |
     python src/diagrams/diagram_solution.py
     ls -lrt
   displayName: 'Python Run'
