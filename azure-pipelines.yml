@@ -36,6 +36,10 @@ steps:
   displayName: 'Install Python Dependencies'  
 
 - script: |
+    flake8 .
+  displayName: 'Run lint tests'
+
+- script: |
     python src/diagrams/diagram_solution.py
     ls -lrt
   displayName: 'Python Run'
