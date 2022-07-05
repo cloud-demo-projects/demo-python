@@ -25,5 +25,5 @@ steps:
   displayName: 'Install Python Dependencies'
 
 - script: |
-    python src/diagrams/diagram_solutions.py
+    python src/diagrams/diagram_solution.py
   displayName: 'Python Run'
