@@ -18,6 +18,10 @@ steps:
   inputs:
     versionSpec: '$(python.version)'
   displayName: 'Use Python $(python.version)'
+  
+- script: 'sudo apt-get -yq install graphviz'
+  displayName: 'Install graphviz on Linux'
+  condition: and(succeeded(), eq(variables['Agent.OS'], 'Linux'))
 
 - script: |
     python -m pip install --upgrade pip
