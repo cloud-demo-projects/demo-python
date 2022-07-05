@@ -23,12 +23,17 @@ steps:
   displayName: 'Install graphviz on Linux'
   condition: and(succeeded(), eq(variables['Agent.OS'], 'Linux'))
 
+# - script: |
+#     python -m pip install --upgrade pip
+#     pip install requests
+#     pip install diagrams
+#     pip install graphviz
+#   displayName: 'Install Python Dependencies'
+
 - script: |
     python -m pip install --upgrade pip
-    pip install requests
-    pip install diagrams
-    pip install graphviz
-  displayName: 'Install Python Dependencies'
+    pip install -r requirements.txt
+  displayName: 'Install Python Dependencies'  
 
 - script: |
     python src/diagrams/diagram_solution.py
