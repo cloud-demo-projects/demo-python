@@ -32,4 +32,5 @@ steps:
 
 - script: |
     python src/diagrams/diagram_solution.py
+    ls -lrt
   displayName: 'Python Run'
