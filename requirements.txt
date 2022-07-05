@@ -30,7 +30,9 @@ flake8
 
 
 # Testing, typing
-#pytest
+pytest
+pytest-azurepipelines
+pytest-cov
 #scikit-learn
 #recommonmark
 #sphinx_rtd_theme
