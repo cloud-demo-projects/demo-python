@@ -14,3 +14,7 @@ This is a sample project to play around Python
 
 ## Add Pylint
 - VS Code- Ctrl+shift+p - lint - enable lint- settings.json updated
+
+## VS Code Extensions
+- Aprepl- intellisense
+- Kite: examples; faster coding
