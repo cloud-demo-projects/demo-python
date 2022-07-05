@@ -21,3 +21,7 @@ This is a sample project to play around Python
 
 ## Enable pytest
 - Go to VS code settings -> search for test and enable pytest
+
+## Enable pycodestyle
+-  Go to VS code settings -> search for codestyle and enable
+- python3 -m pip install -U pycodestyle
