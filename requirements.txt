@@ -22,9 +22,9 @@ requests
 jupyter<=1.0.0
 
 # Testing, typing
+flake8
 #pytest<=6.2
 #mypy==0.790
-#flake8
 #black==20.8b1
 #data-science-types<0.3
 
