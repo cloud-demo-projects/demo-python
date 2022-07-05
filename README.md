@@ -18,3 +18,6 @@ This is a sample project to play around Python
 ## VS Code Extensions
 - Aprepl- intellisense
 - Kite: examples; faster coding
+
+## Enable pytest
+- Go to VS code settings -> search for test and enable pytest
