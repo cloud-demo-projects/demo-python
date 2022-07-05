@@ -5,6 +5,8 @@ dds-py
 xlwt
 
 # libraries
+diagrams
+graphviz
 requests
 beautifulsoup4
 scikit-learn
